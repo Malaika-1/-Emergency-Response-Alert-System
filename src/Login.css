@@ -1,0 +1,43 @@
+.container {
+  width: 30%;
+  border: 1px solid black;
+  margin: 120px auto;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.input {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+ 
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.input[type="button"] {
+  background-color: #28a745; /* Green button for register */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.input[type="button"]:hover {
+  background-color: #1e7e34;
+  transform: scale(1.05);
+}
+
